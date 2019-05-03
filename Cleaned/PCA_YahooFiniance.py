@@ -27,7 +27,7 @@ from pandas.plotting import scatter_matrix
 from sklearn.metrics import accuracy_score
 
 
-df = pd.read_csv('./Data/test.csv')
+df = pd.read_csv('./Data/yahoo.csv')
 df = df.set_index('Date')
 print (df.head())
 

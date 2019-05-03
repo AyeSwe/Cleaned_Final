@@ -2,32 +2,9 @@
 This program will analyse the short term predition with the last 3 day of price
 """
 
-from sklearn import svm
-import quandl
-from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-import datetime as dt
-import pandas as pd
-import time
-import pickle
-import pandas_datareader.data as web
-from matplotlib import style
-import matplotlib.pyplot as plt
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
-import math
+
 import datetime
-import numpy as np
-from sklearn.naive_bayes import GaussianNB
-from pandas.plotting import scatter_matrix
-from sklearn.metrics import accuracy_score
-import pickle
-from sklearn import svm
-import quandl
-from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
+
 import datetime as dt
 import pandas as pd
 import pandas_datareader.data as web
@@ -51,15 +28,6 @@ def got_end_Date():
 
 #
 
-
-# symbol= 'BTC-USD'
-# start =datetime.datetime(2018,12,4)
-#
-# end = datetime.datetime(2019,1,2)
-#
-# df = web.DataReader(symbol, 'yahoo', start, end)
-# df.to_csv('./Data/RealPrice.csv')
-# print (df.info())
 
 df_Forcast = pd.read_csv('./Data/Forecast.csv',parse_dates=True,index_col=0 )
 df_Forcast = df_Forcast.round(4)
@@ -109,11 +77,6 @@ new_df = new_df[['Close','HighVsLow_change','OpenVsClose_change','Volume']]
 close_Price = np.array(new_df['Close'])
 forecast_price = np.array((df_Forcast.iloc[:,0]))
 
-
-
-print("forecast Price are : ", len(forecast_price))
-
-print ("closePrice are: ",len(close_Price))
 
 #--------------
 

@@ -21,7 +21,7 @@ from sklearn.metrics import accuracy_score
 import pickle
 
 
-df = pd.read_csv('./Data/test.csv')
+df = pd.read_csv('./Data/yahoo.csv')
 #print (df.info())
 df = df.set_index('Date')
 #print (df.head())

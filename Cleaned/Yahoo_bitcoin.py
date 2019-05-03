@@ -12,7 +12,7 @@ import pickle
 from sklearn import preprocessing
 
 
-df = pd.read_csv('./Data/test.csv')
+df = pd.read_csv('./Data/yahoo.csv')
 df = df.set_index('Date')
 style.use('ggplot')
 

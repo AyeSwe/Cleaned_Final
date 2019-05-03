@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23deca02-36f0-4695-99a2-2ffcf754ce2d" name="Default Changelist" comment="" />
+    <list default="true" id="23deca02-36f0-4695-99a2-2ffcf754ce2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/Data/2018_19_12_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/Data/linearregressionFitted.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Data/linearregressionFitted.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/Data/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Data/yahoo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/Data_streamming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Data_streamming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/PickleDataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/PickleDataCollection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/Read_Json_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Twitter/Read_Json_File.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/RealPrices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/RealPrices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/TweetStream.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/Tweet_Date_Converter_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Twitter/Tweet_Date_Converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/Yahoo_bitcoin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Yahoo_bitcoin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,12 +24,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-578">
-              <caret line="86" column="79" lean-forward="true" selection-start-line="86" selection-start-column="79" selection-end-line="86" selection-end-column="79" />
+            <state relative-caret-position="325">
+              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
         </entry>
@@ -22,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/Data_streamming.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="492">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
@@ -31,28 +46,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="101" column="34" lean-forward="true" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+            <state relative-caret-position="339">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleaned/PickleDataCollection.py">
+        <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Read_Json_File.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleaned/Read_Json_File.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="30">
               <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -61,17 +64,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/RealPrices.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="554">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+              <folding>
+                <element signature="e#90#105#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleaned/Data/Forecast.csv">
+        <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Tweet_Date_Converter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleaned/PickleDataCollection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1047">
+              <caret line="84" column="48" lean-forward="true" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleaned/Yahoo_bitcoin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/ReadyTweet.cvs">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -86,11 +134,16 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>.pick</find>
       <find>.csv</find>
+      <find>.pi</find>
+      <find>print</find>
+      <find>test.csv</find>
+      <find>2018_19_12_6</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MachineLearing_Final_Team_Project" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,19 +153,20 @@
         <option value="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Data_Cleaning.py" />
         <option value="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/Data_streamming.py" />
         <option value="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Read_Json_File.py" />
-        <option value="$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py" />
-        <option value="$PROJECT_DIR$/Cleaned/Data_streamming.py" />
-        <option value="$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py" />
+        <option value="$PROJECT_DIR$/Cleaned/Yahoo_bitcoin.py" />
         <option value="$PROJECT_DIR$/Cleaned/PickleDataCollection.py" />
+        <option value="$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py" />
+        <option value="$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py" />
+        <option value="$PROJECT_DIR$/Cleaned/Data_streamming.py" />
         <option value="$PROJECT_DIR$/Cleaned/RealPrices.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="246" />
-    <option name="y" value="134" />
-    <option name="width" value="408" />
-    <option name="height" value="620" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="158" />
+    <option name="y" value="243" />
+    <option name="width" value="1033" />
+    <option name="height" value="833" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,7 +190,7 @@
               <item name="cleaned_version_MLPFinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleaned_version_MLPFinal" type="462c0819:PsiDirectoryNode" />
               <item name="Cleaned" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,7 +204,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cleaned/Twitter" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cleaned/Twitter" />
       <recent name="$PROJECT_DIR$/Cleaned/Data" />
       <recent name="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/Data" />
       <recent name="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned" />
@@ -169,28 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.coindesk_bitcoin (1)">
-    <configuration name="Data_Cleaning" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cleaned_version_MLPFinal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearing_Final_Team_Project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/Yahoo_bitcoin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.PickleDataCollection">
     <configuration name="Data_streamming" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cleaned_version_MLPFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,6 +241,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/Data_streamming.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PCA_YahooFiniance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cleaned_version_MLPFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cleaned" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PickleDataCollection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cleaned_version_MLPFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cleaned" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/PickleDataCollection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,34 +333,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="coindesk_bitcoin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cleaned_version_MLPFinal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearing_Final_Team_Project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/coindesk_bitcoin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PickleDataCollection" />
+        <item itemvalue="Python.PCA_YahooFiniance" />
         <item itemvalue="Python.coindesk_bitcoin (1)" />
         <item itemvalue="Python.RealPrices" />
         <item itemvalue="Python.Data_streamming" />
-        <item itemvalue="Python.Data_Cleaning" />
-        <item itemvalue="Python.coindesk_bitcoin" />
       </list>
     </recent_temporary>
   </component>
@@ -299,21 +357,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="620" y="23" width="601" height="833" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19168429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.72931033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6592317" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33209416" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33952913" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23420075" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2413793" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -337,12 +394,56 @@
     <entry file="file://$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/Data/yahoo_bitcoin.csv" />
     <entry file="file://$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/Tweet_Date_Converter_Test.py" />
     <entry file="file://$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/TweetStream.py" />
-    <entry file="file://$PROJECT_DIR$/Cleaned/coindesk.csv">
+    <entry file="file://$PROJECT_DIR$/Cleaned/coindesk.csv" />
+    <entry file="file://$PROJECT_DIR$/Cleaned/Data/Forecast.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Read_Json_File.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/Data/yahoo_bitcoin.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Data/coindesk.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Data/2018_19_12_6.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Data/yahoo.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="325">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Data_streamming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/PickleDataCollection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1047">
+          <caret line="84" column="48" lean-forward="true" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Read_Json_File.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -350,44 +451,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Data/Forecast.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/RealPrices.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="86" column="79" lean-forward="true" selection-start-line="86" selection-start-column="79" selection-end-line="86" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Data_streamming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="101" column="34" lean-forward="true" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/PickleDataCollection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+        <state relative-caret-position="554">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#90#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/RealPrices.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Tweet_Date_Converter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="345">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Yahoo_bitcoin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/ReadyTweet.cvs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

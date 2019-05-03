@@ -24,15 +24,15 @@ import pickle
 
 df = pd.read_csv('./Data/coindesk.csv')
 df = df.set_index('Date')
-print (df.info())
+#print (df.info())
 style.use('ggplot')
-print (df.head())
+#print (df.head())
 
 df.rename({"Unnamed: 0":"a"}, axis="columns", inplace=True)
 df.drop(["a"], axis=1, inplace=True)
 
 
-print (df.head())
+#print (df.head())
 
 #df.plot(kind= 'box',subplots=True, layout= (1,6),sharex=False,sharey=False)
 # df['Close'].plot()
@@ -51,12 +51,12 @@ forecast_out = int(math.ceil(0.1* len(df)))# 1 % of the data
 # # preparaing for the empty labels for the incoming forcast
 #
 df['label']= df[forecast_col].shift(-forecast_out)
-print (df)
+#print (df)
 #
 #
 df.dropna(inplace=True)
 # #
-print (df.tail())
+#print (df.tail())
 
 
 
@@ -84,7 +84,7 @@ linear_regression = pickle.load(pickled)
 LinearRegression(copy_X= True, fit_intercept=True,n_jobs=1, normalize=False)
 accuracy = linear_regression.score(x_test,y_test)
 # # #
-print ('\nLinear_regression accuracy is :', accuracy,"\n") # only 36% accurency
+print ('\nLinear_regression accuracy is :', accuracy,"\n")# possible from the not enough information.
 
 
 # # # New predit
@@ -97,7 +97,7 @@ X_lately = x[-forecast_out:]
 
 
 Forecast_set = linear_regression.predict(X_lately)
-print (Forecast_set)
+#print (Forecast_set)
 
 # # just visualization
 
@@ -130,7 +130,7 @@ for i in Forecast_set:
     df.loc[next_date] = [np.nan for _ in range(len(df.columns)-1)] +[i]
 
 
-print ("next_date array is: ", next_date_array)
+#print ("next_date array is: ", next_date_array)
 
 # make a forcast vs nexdate dataset for Demo
 
@@ -139,7 +139,7 @@ newDf = pd.DataFrame(columns=['Date','Price'])
 
 newDf = pd.DataFrame({'Date': next_date_array[:],'Price': Forecast_set[:]})
 
-print ("newDf is: ---->", newDf)
+#print ("newDf is: ---->", newDf)
 
 
 #------------------------------------------------------

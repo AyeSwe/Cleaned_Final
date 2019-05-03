@@ -53,11 +53,11 @@ from sklearn.metrics import accuracy_score
 
 
 r = requests.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=2016-01-01&end=2019-01-02').json()
-print(r)
+#print(r)
 #sending jason file into the dat frame
 df = pd.DataFrame(r, columns=['bpi'])
 #df.to_csv('./Data/coindesk.csv')
-print (df.info())
+#print (df.info())
 # drop the null values
 df.dropna(inplace=True)
 
@@ -85,12 +85,12 @@ newDf.to_csv('./Data/coindesk.csv')
 
 symbol= 'BTC-USD'
 
-start= dt.datetime(2018,12,6)
-end = dt.datetime(2019,6,5)
+start= dt.datetime(2016,1,1)
+end = dt.datetime(2019,1,2)
 df = web.DataReader(symbol, 'yahoo', start, end)
-df.to_csv('./Data/2018_19_12_6.csv')
+df.to_csv('./Data/yahoo.csv')
 #print (df)
-df = pd.read_csv('./Data/2018_19_12_6.csv',parse_dates=True,index_col=0 )
+df = pd.read_csv('./Data/yahoo.csv',parse_dates=True,index_col=0 )
 df = df.round(4)
-df.to_csv('./Data/2018_19_12_6.csv')
+df.to_csv('./Data/yahoo.csv')
 
