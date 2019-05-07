@@ -57,7 +57,7 @@ newDf.to_csv('./Data/coindesk.csv')
 symbol= 'BTC-USD'
 
 start= dt.datetime(2016,1,1)
-end = dt.datetime(2019,1,2)
+end = dt.datetime.now()
 df = web.DataReader(symbol, 'yahoo', start, end)
 df.to_csv('./Data/yahoo.csv')
 #print (df)

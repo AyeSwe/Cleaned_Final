@@ -47,7 +47,8 @@ original_DataFrame =pd.DataFrame(columns=['Date','Price'])
 original_DataFrame =pd.DataFrame(new_df['Close'].values , columns=['Price'])
 
 # there are 1098 tuples, - 30 is 1067
-original_DataFrame = original_DataFrame[1068:1098] # This Before the 30 day of the end day
+df_size = original_DataFrame.shape[0]
+original_DataFrame = original_DataFrame[df_size - 30:df_size] # This Before the 30 day of the end day
 #print ("original_DataFrame is ----->", original_DataFrame)
 
 
@@ -60,7 +61,7 @@ original_DataFrame = original_DataFrame[1068:1098] # This Before the 30 day of t
 #
 forecast_col = 'Close'
 # # # get the data set length percentage's 0.1 will be in the forecasted
-forecast_out = int(math.ceil(0.027* len(new_df)))# 30 days of the data out of 1098 days , accurency with 75% to 83% swinging, +-8% change
+forecast_out = int(math.ceil(0.027* len(new_df)))# 30 days of the data out of 1098 days , accuracy with 75% to 83% swinging, +-8% change
 #print ("Forcast_out is : ", forecast_out)
 #
 # # # preparaing for the empty labels for the incoming forcast
