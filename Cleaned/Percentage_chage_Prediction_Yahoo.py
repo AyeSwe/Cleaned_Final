@@ -1,3 +1,7 @@
+"""
+This program will predict the 30 day close price with open and close percentage change, high and low percentage change
+"""
+
 from sklearn import svm
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
@@ -30,9 +34,10 @@ df ['HighVsLow_change'] = (df['High']-df['Low'])/ df['Low'] * 100
 #
 # # just change the data set
 new_df = pd.DataFrame(df)
+print("new_df is: --->", new_df)
 new_df = new_df[['Close','HighVsLow_change','OpenVsClose_change','Volume']]
-#print("new_df is: --->", new_df)
 
+print (new_df)
 
 # recording the real Closing price before testing for the forecasting the Price
 original_DataFrame =pd.DataFrame(columns=['Date','Price'])

@@ -6,8 +6,7 @@
 #   perform the required Visual presentation for further analysis
 """
 
-import matplotlib.pyplot as plt
-import requests
+
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import pandas as pd
@@ -20,7 +19,6 @@ import datetime
 import pickle
 
 
-#/Users/ayeswe/PycharmProjects/cleaned_version_MLPFinal/MachineLearing_Final_Team_Project/Cleaned/Data
 
 df = pd.read_csv('./Data/coindesk.csv')
 df = df.set_index('Date')
