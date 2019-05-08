@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23deca02-36f0-4695-99a2-2ffcf754ce2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cleaned/DecisonTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cleaned/L_D_RealComparison.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/Data/Forecast.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Data/Forecast.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/Data/yahoo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Data/yahoo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/Data/yahoo_bitcoin.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/Data_streamming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Data_streamming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/Graphs/Forcasted Price.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/Graphs/PC1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/Graphs/Real_Price.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/PickleDataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/PickleDataCollection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/RealPrices.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/Yahoo_bitcoin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Percentage_chage_Prediction_Yahoo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/R_Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/R_Square.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +16,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="326">
+              <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#115#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleaned/DecisonTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="e#115#134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="134" column="46" lean-forward="true" selection-start-line="134" selection-start-column="46" selection-end-line="134" selection-end-column="46" />
+            <state relative-caret-position="119">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="e#335#384#0" expanded="true" />
               </folding>
@@ -47,32 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cleaned/Yahoo_bitcoin_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-365">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/Percentage_chage_Prediction_Yahoo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-2236">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -80,11 +64,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/PickleDataCollection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#1#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-706">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="113" column="3" lean-forward="true" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -92,8 +82,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/R_Square.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="6" selection-end-line="13" />
+              <folding>
+                <element signature="e#188#207#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,10 +94,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/Features_Analysing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="59" column="48" lean-forward="true" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+            <state relative-caret-position="304">
+              <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleaned/L_D_RealComparison.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
               <folding>
-                <element signature="e#155#186#0" expanded="true" />
+                <element signature="e#114#162#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,18 +115,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/Data_streamming.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-              <folding>
-                <element signature="e#1184#1215#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleaned/Data/yahoo.csv">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -145,6 +139,8 @@
       <find>test.csv</find>
       <find>2018_19_12_6</find>
       <find>height</find>
+      <find>rename</find>
+      <find>renam</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,12 +166,16 @@
         <option value="$PROJECT_DIR$/Cleaned/Percentage_chage_Prediction_Yahoo.py" />
         <option value="$PROJECT_DIR$/Cleaned/PickleDataCollection.py" />
         <option value="$PROJECT_DIR$/Cleaned/R_Square.py" />
+        <option value="$PROJECT_DIR$/Cleaned/LinearRegressionVsDecisionTreeRegression.py" />
+        <option value="$PROJECT_DIR$/Cleaned/DecisonTree.py" />
+        <option value="$PROJECT_DIR$/Cleaned/L_D_RealComparison.py" />
+        <option value="$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="54" />
-    <option name="y" value="67" />
+    <option name="x" value="510" />
+    <option name="y" value="23" />
     <option name="width" value="908" />
     <option name="height" value="827" />
   </component>
@@ -238,8 +238,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Yahoo_bitcoin_2">
-    <configuration name="Data_streamming" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.New_Yahoo">
+    <configuration name="DecisonTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cleaned_version_MLPFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,7 +251,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/Data_streamming.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/DecisonTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Features_Analysing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="L_D_RealComparison" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cleaned_version_MLPFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,7 +272,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/Features_Analysing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/L_D_RealComparison.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LinearRegressionVsDecisionTreeRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cleaned_version_MLPFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cleaned" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/LinearRegression_DecisionTreeRegression_RealData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,7 +323,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Yahoo_bitcoin_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="R_Square" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cleaned_version_MLPFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,28 +335,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/Yahoo_bitcoin_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="coindesk_bitcoin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cleaned_version_MLPFinal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cleaned" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/R_Square.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,11 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Yahoo_bitcoin_2" />
         <item itemvalue="Python.New_Yahoo" />
-        <item itemvalue="Python.Features_Analysing" />
-        <item itemvalue="Python.coindesk_bitcoin" />
-        <item itemvalue="Python.Data_streamming" />
+        <item itemvalue="Python.L_D_RealComparison" />
+        <item itemvalue="Python.LinearRegressionVsDecisionTreeRegression" />
+        <item itemvalue="Python.DecisonTree" />
+        <item itemvalue="Python.R_Square" />
       </list>
     </recent_temporary>
   </component>
@@ -370,18 +370,18 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26568004" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22903453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.26270136" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22800496" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39900866" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23048328" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32589838" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17843866" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.16713484" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -482,116 +482,110 @@
     <entry file="file://$PROJECT_DIR$/Cleaned/Data/PCA_label.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Graphs/Real_Price.png" />
+    <entry file="file://$PROJECT_DIR$/Cleaned/Graphs/Forcasted Price.png" />
+    <entry file="file://$PROJECT_DIR$/Cleaned/Graphs/PC1.csv" />
+    <entry file="file://$PROJECT_DIR$/Cleaned/Data/yahoo_bitcoin.csv" />
+    <entry file="file://$PROJECT_DIR$/Cleaned/RealPrices.py" />
+    <entry file="file://$PROJECT_DIR$/Cleaned/Yahoo_bitcoin_2.py" />
     <entry file="file://$PROJECT_DIR$/Cleaned/Data/RealPrice.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Graphs/Real_Price.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Graphs/Forcasted Price.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Graphs/PC1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Data/yahoo_bitcoin.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Data_streamming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-          <folding>
-            <element signature="e#1184#1215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/Data/yahoo.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Features_Analysing.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/LinearRegression_DecisionTreeRegression_RealData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="59" column="48" lean-forward="true" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+        <state relative-caret-position="228">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
-            <element signature="e#155#186#0" expanded="true" />
+            <element signature="e#115#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="134" column="46" lean-forward="true" selection-start-line="134" selection-start-column="46" selection-end-line="134" selection-end-column="46" />
+        <state relative-caret-position="119">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
             <element signature="e#335#384#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/Data_streamming.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="81">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/DecisonTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#115#134#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/L_D_RealComparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#114#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="113" column="3" lean-forward="true" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/Percentage_chage_Prediction_Yahoo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2236">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/PickleDataCollection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#1#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-706">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/RealPrices.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/Features_Analysing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="e#90#105#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/R_Square.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="6" selection-end-line="13" />
+          <folding>
+            <element signature="e#188#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Yahoo_bitcoin_2.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-365">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="326">
+          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+          <folding>
+            <element signature="e#115#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
