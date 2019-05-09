@@ -2,7 +2,6 @@
 This program will predit the 30 days stock close price with all of the features (Open, high, low, Volume)
 """
 
-import seaborn as sns; sns.set(font_scale = 1.2)
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np

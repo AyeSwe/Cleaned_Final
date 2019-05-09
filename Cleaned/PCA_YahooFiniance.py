@@ -11,7 +11,7 @@ from matplotlib import style
 import matplotlib.pyplot as plt
 import math
 import numpy as np
-
+import seaborn as sns; sns.set(font_scale = 1.2)
 
 
 df = pd.read_csv('./Data/yahoo.csv')
@@ -100,3 +100,6 @@ plt.legend(loc='upper left')
 
 # #
 plt.show()
+
+
+
