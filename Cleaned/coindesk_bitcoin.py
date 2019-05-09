@@ -79,7 +79,7 @@ linear_regression = pickle.load(pickled)
 
 
 
-LinearRegression(copy_X= True, fit_intercept=True,n_jobs=1, normalize=False)
+
 accuracy = linear_regression.score(x_test,y_test)
 # # #
 print ('\nLinear_regression accuracy is :', accuracy,"\n")# possible from the not enough information.

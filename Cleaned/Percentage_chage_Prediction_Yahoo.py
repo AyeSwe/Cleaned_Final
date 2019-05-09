@@ -20,11 +20,6 @@ df = pd.read_csv('./Data/yahoo.csv')
 df = df.set_index('Date')
 style.use('ggplot')
 
-# df.plot(kind= 'box',subplots=True, layout= (1,6),sharex=False,sharey=False)
-# df.hist()
-# scatter_matrix(df)
-# plt.show()
-#df.rename(column= {})
 
 # percentage change for open vs close, and high vs low
 
@@ -38,24 +33,6 @@ print("new_df is: --->", new_df)
 new_df = new_df[['Close','HighVsLow_change','OpenVsClose_change','Volume']]
 
 print (new_df)
-
-# recording the real Closing price before testing for the forecasting the Price
-original_DataFrame =pd.DataFrame(columns=['Date','Price'])
-
-
-original_DataFrame =pd.DataFrame(new_df['Close'].values , columns=['Price'])
-
-# there are 1098 tuples, - 30 is 1067
-original_DataFrame = original_DataFrame[1068:1098] # This Before the 30 day of the end day
-#print ("original_DataFrame is ----->", original_DataFrame)
-
-
-#original_DataFrame = pd.DataFrame({'Date': next_date_array[:],'Price': Forecast_set[:]})
-plt.plot (original_DataFrame['Price'])
-
-plt.xlabel("Date")
-plt.ylabel("Price")
-plt.show()
 
 
 #  # will forcast the Closing price
@@ -81,7 +58,7 @@ new_df.dropna(inplace=True)
 y = np.array(new_df['label'])# only label column
 
 
-#print (len(X), len(y))
+
 # # # get testing set and training set
 # #
 # # #split the dataset with a random seed
@@ -191,11 +168,11 @@ Forecast_DataFrame.to_csv('./Data/Forecast.csv')
 
 #------------------------------------------------------
 #new_df['Close'].plot()
-new_df['Forecast'].plot()
-
-plt.title("January 1st, 2016 To January 1st, 2019 bitcoin Stock price and 30 day forecast")
-plt.legend(loc=4)
-plt.xlabel('Date')
-plt.ylabel('Price')
-#plt.show()
+# new_df['Forecast'].plot()
+#
+# plt.title("January 1st, 2016 To January 1st, 2019 bitcoin Stock price and 30 day forecast")
+# plt.legend(loc=4)
+# plt.xlabel('Date')
+# plt.ylabel('Price')
+# #plt.show()
 

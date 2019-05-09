@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23deca02-36f0-4695-99a2-2ffcf754ce2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cleaned/DecisonTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cleaned/L_D_RealComparison.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaned/R_Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/R_Square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/DecisonTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/DecisonTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleaned/Twitter/Tweet_Date_Converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cleaned/Twitter/Tweet_Data_Converter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,37 +16,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-              <folding>
-                <element signature="e#115#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/DecisonTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="174">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#115#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding>
-                <element signature="e#335#384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/Percentage_chage_Prediction_Yahoo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2236">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="159">
+              <caret line="192" column="6" selection-end-line="201" />
             </state>
           </provider>
         </entry>
@@ -64,8 +40,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/PickleDataCollection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-706">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="211">
+              <caret line="86" column="3" lean-forward="true" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="e#50#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Tweet_Data_Converter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="26" column="15" lean-forward="true" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Read_Json_File.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="44" column="19" selection-end-line="63" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/ReadyTweet.cvs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -73,19 +94,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="113" column="3" lean-forward="true" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleaned/R_Square.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="6" selection-end-line="13" />
+            <state relative-caret-position="151">
+              <caret line="80" column="1" lean-forward="true" selection-end-line="101" selection-end-column="10" />
               <folding>
-                <element signature="e#188#207#0" expanded="true" />
+                <element signature="e#251#299#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,29 +106,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cleaned/Features_Analysing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+            <state relative-caret-position="152">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleaned/L_D_RealComparison.py">
+        <entry file="file://$PROJECT_DIR$/Cleaned/LinearRegression_DecisionTree_RealPriceComparison.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="110">
+              <caret line="66" lean-forward="true" selection-end-line="93" />
               <folding>
                 <element signature="e#114#162#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleaned/Data_streamming.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -155,9 +158,7 @@
         <option value="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/Data_streamming.py" />
         <option value="$PROJECT_DIR$/MachineLearing_Final_Team_Project/Read_Json_File.py" />
         <option value="$PROJECT_DIR$/Cleaned/Yahoo_bitcoin.py" />
-        <option value="$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py" />
         <option value="$PROJECT_DIR$/Cleaned/RealPrices.py" />
-        <option value="$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py" />
         <option value="$PROJECT_DIR$/Cleaned/Yahoo_bitcoin_2.py" />
         <option value="$PROJECT_DIR$/Cleaned/Data_streamming.py" />
         <option value="$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py" />
@@ -167,17 +168,19 @@
         <option value="$PROJECT_DIR$/Cleaned/PickleDataCollection.py" />
         <option value="$PROJECT_DIR$/Cleaned/R_Square.py" />
         <option value="$PROJECT_DIR$/Cleaned/LinearRegressionVsDecisionTreeRegression.py" />
-        <option value="$PROJECT_DIR$/Cleaned/DecisonTree.py" />
         <option value="$PROJECT_DIR$/Cleaned/L_D_RealComparison.py" />
         <option value="$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py" />
+        <option value="$PROJECT_DIR$/Cleaned/DecisonTree.py" />
+        <option value="$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py" />
+        <option value="$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="510" />
-    <option name="y" value="23" />
-    <option name="width" value="908" />
-    <option name="height" value="827" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="784" />
+    <option name="y" value="27" />
+    <option name="width" value="639" />
+    <option name="height" value="686" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -185,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,21 +195,11 @@
               <item name="cleaned_version_MLPFinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleaned_version_MLPFinal" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cleaned_version_MLPFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleaned_version_MLPFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="Cleaned" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleaned_version_MLPFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleaned_version_MLPFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="Cleaned" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,7 +264,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/L_D_RealComparison.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cleaned/LinearRegression_DecisionTree_RealPriceComparison.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,20 +360,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="784" y="27" width="639" height="686" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22903453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.697411" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.26270136" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23048328" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5464684" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32589838" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.16713484" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35726795" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -407,26 +399,6 @@
     <entry file="file://$PROJECT_DIR$/MachineLearing_Final_Team_Project/Cleaned/TweetStream.py" />
     <entry file="file://$PROJECT_DIR$/Cleaned/coindesk.csv" />
     <entry file="file://$PROJECT_DIR$/Cleaned/Data/2018_19_12_6.csv" />
-    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Read_Json_File.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Tweet_Date_Converter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HomeworkTest_2/LiverDisease/Liver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -436,16 +408,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/ReadyTweet.cvs">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../HomeworkTest_2/LinearAlgebra/Inverse.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -494,20 +456,19 @@
     <entry file="file://$PROJECT_DIR$/Cleaned/Data/yahoo.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/LinearRegression_DecisionTreeRegression_RealData.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/LinearRegression_DecisionTreeRegression_RealData.py" />
+    <entry file="file://$PROJECT_DIR$/Cleaned/R_Square.py" />
+    <entry file="file://$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="e#115#134#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/coindesk_bitcoin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="74">
+          <caret line="23" column="8" lean-forward="true" selection-end-line="151" />
           <folding>
             <element signature="e#335#384#0" expanded="true" />
           </folding>
@@ -516,25 +477,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/Data_streamming.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="-34">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#358#389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/DecisonTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="174">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#115#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/L_D_RealComparison.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/Features_Analysing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="152">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/LinearRegression_DecisionTree_RealPriceComparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="66" lean-forward="true" selection-end-line="93" />
           <folding>
             <element signature="e#114#162#0" expanded="true" />
           </folding>
@@ -543,49 +514,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/PCA_YahooFiniance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="113" column="3" lean-forward="true" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
+        <state relative-caret-position="151">
+          <caret line="80" column="1" lean-forward="true" selection-end-line="101" selection-end-column="10" />
+          <folding>
+            <element signature="e#251#299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/Percentage_chage_Prediction_Yahoo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2236">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="159">
+          <caret line="192" column="6" selection-end-line="201" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cleaned/PickleDataCollection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-706">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="211">
+          <caret line="86" column="3" lean-forward="true" selection-end-line="105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/Features_Analysing.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/TweetStream.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/R_Square.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="6" selection-end-line="13" />
+        <state relative-caret-position="202">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
-            <element signature="e#188#207#0" expanded="true" />
+            <element signature="e#50#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleaned/All_features_prediction_Yahoo.py">
+    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Tweet_Data_Converter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        <state relative-caret-position="134">
+          <caret line="26" column="15" lean-forward="true" selection-end-line="40" />
           <folding>
-            <element signature="e#115#134#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/Read_Json_File.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="44" column="19" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleaned/Twitter/ReadyTweet.cvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

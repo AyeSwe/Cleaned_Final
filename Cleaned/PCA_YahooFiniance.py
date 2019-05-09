@@ -3,28 +3,15 @@ This program will reduce the dimension of yahoo finance 6 columns into two colum
 the behavior of the Linear regression, and svm model
 dropped Adj Close because it is the same with Close column
 """
-from sympy import *
+
 from sklearn.preprocessing import StandardScaler
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
-import matplotlib.pyplot as plt
-
-from sklearn import svm
-import quandl
-from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-import datetime as dt
 import pandas as pd
 import pandas_datareader.data as web
 from matplotlib import style
 import matplotlib.pyplot as plt
 import math
 import numpy as np
-from pandas.plotting import scatter_matrix
-from sklearn.metrics import accuracy_score
+
 
 
 df = pd.read_csv('./Data/yahoo.csv')

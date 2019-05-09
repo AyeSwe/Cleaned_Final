@@ -20,11 +20,12 @@ class StdOutListener(StreamListener):
 if __name__ == '__main__':
 
     #This handles Twitter authetification and the connection to Twitter Streaming API
-    l = StdOutListener()
+    Listen = StdOutListener()
     auth = OAuthHandler(Twitter_credential.CONSUMER_KEY, Twitter_credential.CONSUMER_SECRET)
     auth.set_access_token(Twitter_credential.ACCESS_TOKEN, Twitter_credential.ACCESS_TOKEN_SECRET)
-    stream = Stream(auth, l)
+    stream = Stream(auth, Listen)
 
     #This line filter Twitter Streams to capture data by the keywords: 'python', 'javascript', 'ruby'
     stream.filter(track=['bitcoin','currency'])
-# this streamming is captured from command line redirection to the "tweet_data_testing.txt file "
+
+
